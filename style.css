@@ -1,0 +1,144 @@
+
+.bg-blue {
+    background-color: #316dc3;
+  }
+  
+
+  .top-head {
+    font-size: 1rem;
+  }
+
+  .top-btn {
+    font-size: small;
+  }
+
+.ab {
+    text-align: center;
+    padding-top: 7px;
+}
+
+
+.mnbm {
+  color: black !important;
+  position: relative;
+}
+
+.mnbm   :hover> ul{
+display: block;
+color: #000;
+
+background-color: white;}
+
+.mnbm ul  {
+  position: relative;
+}
+
+.mnbm ul :hover> li {
+  width: 200px;
+}
+ .mbnm ul :hover>li{
+   background-color: white;
+ }
+
+.hover  :hover {
+background-color: royalblue;
+color: white;
+border-radius: 20px;}
+
+.mnbm ul li {
+  position: relative;
+  color: #000;
+}
+
+.mnbm ul li :hover> ul {
+  width: 200px;
+display: block;
+position: absolute;
+background-color: white;
+left: 200px;
+top: 0px;}
+
+.mbnm ul li ul :hover> li {
+  background-color: white;
+}
+
+.h {
+  background-color: royalblue;
+  border-radius: 20px;
+  color: white;
+}
+
+.bi2 {
+  display: inline;
+  color: green;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.bi {
+  text-align: center;
+}
+.abi {
+display: flex;
+justify-content: space-around;
+padding-top: 50px;
+text-align: center;}
+
+.faq .faq-item {
+  margin: 20px 0;
+  padding: 20px 0;
+  border-bottom: 1px solid #eeeeee;
+}
+
+.faq .faq-item i {
+  color: #8bc4ea;
+  font-size: 24px;
+  float: left;
+  line-height: 0;
+  padding: 13px 0 0 0;
+  margin: 0;
+}
+
+.faq .faq-item h4 {
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 500;
+  margin: 0 0 10px 32px;
+  font-family: "Poppins", sans-serif;
+}
+
+.faq .faq-item p {
+  font-size: 15px;
+}
+.in { 
+  display: inline;
+  font-size: small;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.cnt {
+  font-size: small;
+}
+
+#myBtn {
+ width: 40px;
+  text-align: center;
+  justify-content: center;
+  height: 30px;
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 15px; /* Place the button at the bottom of the page */
+  right: 15px; /* Place the button 30px from the right */
+  z-index: 999; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color:royalblue; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 5px; /* Some padding */
+  border-radius: 4px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
